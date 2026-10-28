@@ -23,3 +23,13 @@ history or the shared repository.
 
 When asked to write or modify tests, follow the specific instructions for
 that task.
+
+## Code quality
+
+Follow the project's coding conventions.
+
+Before completing a coding task:
+- Run `ruff check .`
+- Run `ruff format --check .`
+
+Report any failures.
